@@ -13,9 +13,6 @@ def num_of_appearances(file_contents):
 			number_count[char] +=1
 	return number_count
 
-def sorting(item):
-	return item["num"]
-
 def sort_on(number_count):
 	char_num = {}
 	char_num_list = []
